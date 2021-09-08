@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="weatherdashbord\assets\css\style.css" />
+</head>
+<body class="min-100-vh flex-column">
+    <header class="text-center">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        
+        <aside class="city-search">
+            <h2>Seach for a City:</h2>
+            <form class="search-box">
+                <label for="city"></label>
+                <input type="search" placeholder="New York">
+            </form>
+            <button id="search-button">Search</button>
+            <button class="city-name">Austin</button>
+            <button class="city-name">Chicago</button>
+            <button class="city-name">New York</button>
+            <button class="city-name">Orlando</button>
+            <button class="city-name">San Francisco</button>
+            <button class="city-name">Seattle</button>
+            <button class="city-name">Denver</button>
+            <button class="city-name">Atlanta</button>
+        </aside>
+
+        <section class="display">
+           <div id="current-city"><h1>current city info goes here</h1></div> 
+           <div id="forecast"><h1>5-day forecast goes here</h1></div> 
+           
+        </section>
+
+
+
+
+    </main>
+    <script src="weatherdashbord\assets\js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
