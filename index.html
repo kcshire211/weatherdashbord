@@ -7,7 +7,7 @@
     <title>Weather Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="weatherdashbord\assets\css\style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 <body class="min-100-vh flex-column">
     <header class="text-center">
@@ -19,9 +19,10 @@
             <h2>Seach for a City:</h2>
             <form class="search-box">
                 <label for="city"></label>
-                <input type="search" placeholder="New York">
+                <input class ="search" type="search" placeholder="Enter a city name">
+                <button id="search-button">Search</button>
             </form>
-            <button id="search-button">Search</button>
+            
             <button class="city-name">Austin</button>
             <button class="city-name">Chicago</button>
             <button class="city-name">New York</button>
@@ -33,8 +34,8 @@
         </aside>
 
         <section class="display">
-           <div id="current-city"><h1>current city info goes here</h1></div> 
-           <div id="forecast"><h1>5-day forecast goes here</h1></div> 
+           <div id="current-city"><h1>Current weather</h1></div> 
+           <div id="forecast"><h1>5-day Forecast</h1></div> 
            
         </section>
 
@@ -42,7 +43,7 @@
 
 
     </main>
-    <script src="weatherdashbord\assets\js\script.js"></script>
+    <script src="./assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
